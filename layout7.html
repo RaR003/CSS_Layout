@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+        <title>Layout7</title>
+       
+        <style>
+    
+            div{
+               outline: 1px solid black;
+            }
+            
+            #container {
+               margin: auto;
+               max-width: 800px;
+            }
+            
+            #blue {
+                background-color:blue;
+                display:grid;
+                grid-template-columns: 30% 70%;
+                height:100px;   
+            }
+            
+               .yellow {
+               background-color: yellow;
+                 margin: 20px;
+            }
+            
+            #green{
+                background-color: lime;
+                height: 500px;
+            }
+            
+            #blue1 {
+                background-color:blue;
+                height: 100px;
+            }
+                    
+                
+            #red {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                background-color: red;
+                height: 400px; 
+            }
+            
+            .yellowred{
+                background-color: yellow;
+                margin: 20px;
+                grid-column: 1/4;
+                height:100px; 
+            }
+            
+            .yellowred1{
+                background-color: yellow;
+                margin: 20px;
+                grid-column:1 2 3;
+                height: 200px;
+                
+                
+            }
+            
+    </style>
+        
+    </head>
+            
+   
+ <body>
+    <div id="container"></div>
+      <div id="bluecontainer"></div>
+        <div id="blue">
+          <div class="yellow"></div>
+          <div class="yellow"></div>
+            </div>
+                <div id="green"></div>
+                   <div id="red">
+                     <div class="yellowred"></div> 
+                       <div class="yellowred1"></div>
+                       <div class="yellowred1"></div>
+                       <div class="yellowred1"></div>
+                          </div>
+     
+       <div id="green1">
+     
+                </div>
+     <div id=blue1></div> 
+    </body>
+        
+
+</html>
+
+
